@@ -12,7 +12,7 @@
 #include "Naranja.h"
 using namespace std;
 Chefcito::Chefcito() {
-
+ cout<<"Chefcito"<<endl;
 
 }
 
