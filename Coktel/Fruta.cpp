@@ -7,7 +7,7 @@
 #include "Fruta.h"
 
 Fruta::Fruta() {
-	cout << "constructor de fruta sin parametros" << endl;
+	cout << "constructor de fruta vacio" << endl;
 }
 
 Fruta::Fruta(string nombre) {
@@ -17,13 +17,12 @@ Fruta::Fruta(string nombre) {
 }
 
 Fruta::Fruta(string nombre, int i) {
-	cout << "constructor de fruta con parametros i= " << i << endl;
+	cout << "constructor de fruta con parametros i= " << i + 1 << endl;
 	this->nombre = nombre;
 
 }
 
 Fruta::~Fruta() {
-	// TODO Auto-generated destructor stub
 }
 
 string Fruta::getNombre() {
@@ -32,4 +31,5 @@ string Fruta::getNombre() {
 
 void Fruta::setNombre(string _nombre) {
 	this->nombre = _nombre;
+cout<<<"hola fruta nueva"<<endl;
 }
